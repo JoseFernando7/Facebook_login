@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Registro </title>
+</head>
+<body>
+    <h1> <a href="/"> Facebook </a> </h1>
+    <h2> Registrarse </h2>
+
+    <form action="/registro" method="post">
+        <div class="form-group">
+            <p> Nombre de Usuario: </p>
+            <input type="text" name="username" placeholder="Nombre de Usuario" autocomplete="off" autofocus>
+        </div>
+
+        <div class="form-group">
+            <p> Género: </p>
+            <select name="gender" id="">
+                <option value=""></option>
+                <option value="F"> Femenino </option>
+                <option value="M"> Masculino </option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p> Edad: </p>
+            <input type="number" name="age" id="">
+        </div>
+
+        <div class="form-group">
+            <p> Contraseña: </p>
+            <input type="password" name="password" id="">
+        </div>
+
+        <div class="form-group">
+            <button type="submit"> Registrarse </button>
+        </div>
+    </form>
+</body>
+</html>
